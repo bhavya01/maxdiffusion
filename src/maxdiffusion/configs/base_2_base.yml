@@ -28,7 +28,7 @@ unet_checkpoint: ''
 revision: 'main'
 
 # This will convert the weights to this dtype.
-weights_dtype: 'float32'
+weights_dtype: 'bfloat16'
 # This sets the layer's dtype in the model. Ex: nn.Dense(dtype=activations_dtype)
 activations_dtype: 'bfloat16'
 
